@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  calc
+//  Calculator
 //
-//  Created by 安正超 on 15/9/29.
+//  Created by 安正超 on 15/9/30.
 //  Copyright © 2015年 安正超. All rights reserved.
 //
 
@@ -40,5 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+
+
 }
 
