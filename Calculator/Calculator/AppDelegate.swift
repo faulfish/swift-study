@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Calculator
 //
-//  Created by 安正超 on 15/9/30.
-//  Copyright © 2015年 安正超. All rights reserved.
+//  Created by 安正超 on 15/10/18.
+//  Copyright © 2015年 overtrue. All rights reserved.
 //
 
 import UIKit

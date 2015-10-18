@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "023079501BBAF9B400FBF41B"
+               BlueprintIdentifier = "0254041B1BD3DD8600538E27"
                BuildableName = "Calculator.app"
                BlueprintName = "Calculator"
                ReferencedContainer = "container:Calculator.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "023079501BBAF9B400FBF41B"
+            BlueprintIdentifier = "0254041B1BD3DD8600538E27"
             BuildableName = "Calculator.app"
             BlueprintName = "Calculator"
             ReferencedContainer = "container:Calculator.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "023079501BBAF9B400FBF41B"
+            BlueprintIdentifier = "0254041B1BD3DD8600538E27"
             BuildableName = "Calculator.app"
             BlueprintName = "Calculator"
             ReferencedContainer = "container:Calculator.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "023079501BBAF9B400FBF41B"
+            BlueprintIdentifier = "0254041B1BD3DD8600538E27"
             BuildableName = "Calculator.app"
             BlueprintName = "Calculator"
             ReferencedContainer = "container:Calculator.xcodeproj">
