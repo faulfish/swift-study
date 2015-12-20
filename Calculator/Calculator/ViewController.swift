@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var screen: UILabel!
+    let calculator = Calculator()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,24 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pushOperation(sender: UIButton) {
-        screen.text = sender.currentTitle
+        let label = sender.currentTitle!
+        
+        if (["+", "-", "×", "÷", "=", "%", "+/−", "AC"].contains(label)) {
+            calculator.performanceOperation(label)
+            calculator.pushOperand(NSNumberFormatter().numberFromString(screen.text!)!.doubleValue)
+            screen.text = "\(calculator.calculate())"
+        } else {
+            showItem(label)
+        }
+    }
+    
+    func showItem(item: String) {
+        if (screen.text == "0" && item != ".") {
+            screen.text = item
+        } else {
+            screen.text = screen.text! + item
+        }
+        
     }
 }
 

@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "05769E05B6292B1FC44EBD812FBD17AF13D15C6B" : 0,
+    "67620B5EFA902936DF04070AF595B76AB0333747" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E3AA1644-75AA-4ADC-A991-66B92E243C73",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "05769E05B6292B1FC44EBD812FBD17AF13D15C6B" : "",
+    "67620B5EFA902936DF04070AF595B76AB0333747" : "GitHubRepos\/Alamofire\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GitHubRepos",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GitHubRepos.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/overtrue\/swift-study",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "05769E05B6292B1FC44EBD812FBD17AF13D15C6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Alamofire\/Alamofire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747"
+    }
+  ]
+}

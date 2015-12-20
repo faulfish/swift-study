@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021CAA751BFDE06300383DB7 /* MyCustomAppProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021CAA741BFDE06300383DB7 /* MyCustomAppProxyProvider.swift */; };
+		021CAAA21BFDE9DF00383DB7 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021CAAA11BFDE9DF00383DB7 /* PacketTunnelProvider.swift */; };
+		021CAAA61BFDE9DF00383DB7 /* VPN2.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 021CAA9D1BFDE9DF00383DB7 /* VPN2.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		023210281BFDD08400F5992D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023210271BFDD08400F5992D /* AppDelegate.swift */; };
+		0232102A1BFDD08400F5992D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023210291BFDD08400F5992D /* ViewController.swift */; };
+		0232102D1BFDD08400F5992D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0232102B1BFDD08400F5992D /* Main.storyboard */; };
+		0232102F1BFDD08400F5992D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0232102E1BFDD08400F5992D /* Assets.xcassets */; };
+		023210321BFDD08400F5992D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023210301BFDD08400F5992D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		021CAAA41BFDE9DF00383DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0232101C1BFDD08400F5992D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021CAA9C1BFDE9DF00383DB7;
+			remoteInfo = VPN2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		021CAA871BFDE47900383DB7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				021CAAA61BFDE9DF00383DB7 /* VPN2.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		021CAA741BFDE06300383DB7 /* MyCustomAppProxyProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomAppProxyProvider.swift; sourceTree = "<group>"; };
+		021CAA7A1BFDE47900383DB7 /* vpn.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = vpn.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		021CAA8C1BFDE49B00383DB7 /* VPN.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VPN.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		021CAA9D1BFDE9DF00383DB7 /* VPN2.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VPN2.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		021CAAA01BFDE9DF00383DB7 /* VPN2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VPN2.entitlements; sourceTree = "<group>"; };
+		021CAAA11BFDE9DF00383DB7 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		021CAAA31BFDE9DF00383DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023210241BFDD08400F5992D /* MAPIDevSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPIDevSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		023210271BFDD08400F5992D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		023210291BFDD08400F5992D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0232102C1BFDD08400F5992D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0232102E1BFDD08400F5992D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		023210311BFDD08400F5992D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		023210331BFDD08400F5992D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021CAA771BFDE47900383DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021CAA891BFDE49B00383DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021CAA9A1BFDE9DF00383DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023210211BFDD08400F5992D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021CAA9E1BFDE9DF00383DB7 /* VPN2 */ = {
+			isa = PBXGroup;
+			children = (
+				021CAAA11BFDE9DF00383DB7 /* PacketTunnelProvider.swift */,
+				021CAAA31BFDE9DF00383DB7 /* Info.plist */,
+				021CAA9F1BFDE9DF00383DB7 /* Supporting Files */,
+			);
+			path = VPN2;
+			sourceTree = "<group>";
+		};
+		021CAA9F1BFDE9DF00383DB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				021CAAA01BFDE9DF00383DB7 /* VPN2.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0232101B1BFDD08400F5992D = {
+			isa = PBXGroup;
+			children = (
+				023210261BFDD08400F5992D /* MAPIDevSugar */,
+				021CAA9E1BFDE9DF00383DB7 /* VPN2 */,
+				023210251BFDD08400F5992D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		023210251BFDD08400F5992D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				023210241BFDD08400F5992D /* MAPIDevSugar.app */,
+				021CAA7A1BFDE47900383DB7 /* vpn.appex */,
+				021CAA8C1BFDE49B00383DB7 /* VPN.appex */,
+				021CAA9D1BFDE9DF00383DB7 /* VPN2.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		023210261BFDD08400F5992D /* MAPIDevSugar */ = {
+			isa = PBXGroup;
+			children = (
+				023210271BFDD08400F5992D /* AppDelegate.swift */,
+				023210291BFDD08400F5992D /* ViewController.swift */,
+				0232102B1BFDD08400F5992D /* Main.storyboard */,
+				0232102E1BFDD08400F5992D /* Assets.xcassets */,
+				023210301BFDD08400F5992D /* LaunchScreen.storyboard */,
+				023210331BFDD08400F5992D /* Info.plist */,
+				021CAA741BFDE06300383DB7 /* MyCustomAppProxyProvider.swift */,
+			);
+			path = MAPIDevSugar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021CAA791BFDE47900383DB7 /* vpn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021CAA861BFDE47900383DB7 /* Build configuration list for PBXNativeTarget "vpn" */;
+			buildPhases = (
+				021CAA761BFDE47900383DB7 /* Sources */,
+				021CAA771BFDE47900383DB7 /* Frameworks */,
+				021CAA781BFDE47900383DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vpn;
+			productName = vpn;
+			productReference = 021CAA7A1BFDE47900383DB7 /* vpn.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		021CAA8B1BFDE49B00383DB7 /* VPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021CAA961BFDE49B00383DB7 /* Build configuration list for PBXNativeTarget "VPN" */;
+			buildPhases = (
+				021CAA881BFDE49B00383DB7 /* Sources */,
+				021CAA891BFDE49B00383DB7 /* Frameworks */,
+				021CAA8A1BFDE49B00383DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPN;
+			productName = VPN;
+			productReference = 021CAA8C1BFDE49B00383DB7 /* VPN.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		021CAA9C1BFDE9DF00383DB7 /* VPN2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021CAAA71BFDE9DF00383DB7 /* Build configuration list for PBXNativeTarget "VPN2" */;
+			buildPhases = (
+				021CAA991BFDE9DF00383DB7 /* Sources */,
+				021CAA9A1BFDE9DF00383DB7 /* Frameworks */,
+				021CAA9B1BFDE9DF00383DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPN2;
+			productName = VPN2;
+			productReference = 021CAA9D1BFDE9DF00383DB7 /* VPN2.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		023210231BFDD08400F5992D /* MAPIDevSugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023210361BFDD08400F5992D /* Build configuration list for PBXNativeTarget "MAPIDevSugar" */;
+			buildPhases = (
+				023210201BFDD08400F5992D /* Sources */,
+				023210211BFDD08400F5992D /* Frameworks */,
+				023210221BFDD08400F5992D /* Resources */,
+				021CAA871BFDE47900383DB7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021CAAA51BFDE9DF00383DB7 /* PBXTargetDependency */,
+			);
+			name = MAPIDevSugar;
+			productName = MAPIDevSugar;
+			productReference = 023210241BFDD08400F5992D /* MAPIDevSugar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0232101C1BFDD08400F5992D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = overtrue;
+				TargetAttributes = {
+					021CAA791BFDE47900383DB7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CXFP2226F4;
+					};
+					021CAA8B1BFDE49B00383DB7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CXFP2226F4;
+					};
+					021CAA9C1BFDE9DF00383DB7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CXFP2226F4;
+					};
+					023210231BFDD08400F5992D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CXFP2226F4;
+					};
+				};
+			};
+			buildConfigurationList = 0232101F1BFDD08400F5992D /* Build configuration list for PBXProject "MAPIDevSugar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0232101B1BFDD08400F5992D;
+			productRefGroup = 023210251BFDD08400F5992D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				023210231BFDD08400F5992D /* MAPIDevSugar */,
+				021CAA791BFDE47900383DB7 /* vpn */,
+				021CAA8B1BFDE49B00383DB7 /* VPN */,
+				021CAA9C1BFDE9DF00383DB7 /* VPN2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021CAA781BFDE47900383DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021CAA8A1BFDE49B00383DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021CAA9B1BFDE9DF00383DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023210221BFDD08400F5992D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023210321BFDD08400F5992D /* LaunchScreen.storyboard in Resources */,
+				0232102F1BFDD08400F5992D /* Assets.xcassets in Resources */,
+				0232102D1BFDD08400F5992D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021CAA761BFDE47900383DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021CAA881BFDE49B00383DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021CAA991BFDE9DF00383DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021CAAA21BFDE9DF00383DB7 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023210201BFDD08400F5992D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021CAA751BFDE06300383DB7 /* MyCustomAppProxyProvider.swift in Sources */,
+				0232102A1BFDD08400F5992D /* ViewController.swift in Sources */,
+				023210281BFDD08400F5992D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021CAAA51BFDE9DF00383DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 021CAA9C1BFDE9DF00383DB7 /* VPN2 */;
+			targetProxy = 021CAAA41BFDE9DF00383DB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0232102B1BFDD08400F5992D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0232102C1BFDD08400F5992D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		023210301BFDD08400F5992D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023210311BFDD08400F5992D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		021CAA841BFDE47900383DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = vpn/vpn.entitlements;
+				INFOPLIST_FILE = vpn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		021CAA851BFDE47900383DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = vpn/vpn.entitlements;
+				INFOPLIST_FILE = vpn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		021CAA971BFDE49B00383DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPN/VPN.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar.VPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		021CAA981BFDE49B00383DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPN/VPN.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar.VPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		021CAAA81BFDE9DF00383DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPN2/VPN2.entitlements;
+				INFOPLIST_FILE = VPN2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar.VPN2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		021CAAA91BFDE9DF00383DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPN2/VPN2.entitlements;
+				INFOPLIST_FILE = VPN2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar.VPN2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		023210341BFDD08400F5992D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		023210351BFDD08400F5992D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		023210371BFDD08400F5992D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MAPIDevSugar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		023210381BFDD08400F5992D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MAPIDevSugar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.MAPIDevSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021CAA861BFDE47900383DB7 /* Build configuration list for PBXNativeTarget "vpn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021CAA841BFDE47900383DB7 /* Debug */,
+				021CAA851BFDE47900383DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		021CAA961BFDE49B00383DB7 /* Build configuration list for PBXNativeTarget "VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021CAA971BFDE49B00383DB7 /* Debug */,
+				021CAA981BFDE49B00383DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		021CAAA71BFDE9DF00383DB7 /* Build configuration list for PBXNativeTarget "VPN2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021CAAA81BFDE9DF00383DB7 /* Debug */,
+				021CAAA91BFDE9DF00383DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0232101F1BFDD08400F5992D /* Build configuration list for PBXProject "MAPIDevSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023210341BFDD08400F5992D /* Debug */,
+				023210351BFDD08400F5992D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023210361BFDD08400F5992D /* Build configuration list for PBXNativeTarget "MAPIDevSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023210371BFDD08400F5992D /* Debug */,
+				023210381BFDD08400F5992D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0232101C1BFDD08400F5992D /* Project object */;
+}

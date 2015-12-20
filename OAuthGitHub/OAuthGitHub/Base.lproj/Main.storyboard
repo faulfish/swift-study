@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D9c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OAuthGitHub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M9J-Ec-fXZ">
+                                <rect key="frame" x="250" y="140" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="9CP-aV-OuC"/>
+                                    <constraint firstAttribute="height" constant="100" id="HJf-PL-GOg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEJ-qr-VUy">
+                                <rect key="frame" x="262" y="288.5" width="76" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jG-8A-hLq">
+                                <rect key="frame" x="280.5" y="317" width="40.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ld1-L1-0cr">
+                                <rect key="frame" x="270.5" y="353.5" width="60.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h50-s5-XL8">
+                                <rect key="frame" x="278.5" y="260" width="42.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vEJ-qr-VUy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5cA-E8-Rmn"/>
+                            <constraint firstItem="h50-s5-XL8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6AL-CW-Fsl"/>
+                            <constraint firstItem="ld1-L1-0cr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EUK-hz-11N"/>
+                            <constraint firstItem="3jG-8A-hLq" firstAttribute="top" secondItem="vEJ-qr-VUy" secondAttribute="bottom" constant="8" id="Nfy-VL-llP"/>
+                            <constraint firstItem="vEJ-qr-VUy" firstAttribute="top" secondItem="h50-s5-XL8" secondAttribute="bottom" constant="8" id="VK2-Af-q4T"/>
+                            <constraint firstItem="M9J-Ec-fXZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VlD-4H-VIc"/>
+                            <constraint firstItem="h50-s5-XL8" firstAttribute="top" secondItem="M9J-Ec-fXZ" secondAttribute="bottom" constant="20" id="dJz-4W-f5i"/>
+                            <constraint firstItem="M9J-Ec-fXZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ec5-9B-rno"/>
+                            <constraint firstItem="3jG-8A-hLq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qhp-ju-kQo"/>
+                            <constraint firstItem="vEJ-qr-VUy" firstAttribute="top" secondItem="M9J-Ec-fXZ" secondAttribute="bottom" constant="49" id="qkP-Cv-Gua"/>
+                            <constraint firstItem="ld1-L1-0cr" firstAttribute="top" secondItem="3jG-8A-hLq" secondAttribute="bottom" constant="16" id="rdZ-8f-F5L"/>
+                            <constraint firstItem="M9J-Ec-fXZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="wOo-ws-Buz"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VlD-4H-VIc"/>
+                                <exclude reference="qkP-Cv-Gua"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="avatarView" destination="M9J-Ec-fXZ" id="svy-nq-P0n"/>
+                        <outlet property="emailLabel" destination="3jG-8A-hLq" id="SdU-ES-6Nl"/>
+                        <outlet property="locationLabel" destination="ld1-L1-0cr" id="gAf-vH-8WE"/>
+                        <outlet property="nameLabel" destination="h50-s5-XL8" id="xfD-fJ-x7A"/>
+                        <outlet property="usernameLabel" destination="vEJ-qr-VUy" id="7KP-Pv-WFy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,9 @@
+[submodule "GitHubPocket/Alamofire"]
+	path = GitHubPocket/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "GitHubPocket/--force"]
+	path = GitHubPocket/--force
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "GitHubPocket/CryptoSwift"]
+	path = GitHubPocket/CryptoSwift
+	url = https://github.com/krzyzanowskim/CryptoSwift.git

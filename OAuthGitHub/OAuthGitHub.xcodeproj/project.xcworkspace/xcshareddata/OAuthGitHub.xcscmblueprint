@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "05769E05B6292B1FC44EBD812FBD17AF13D15C6B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E" : 0,
+    "05769E05B6292B1FC44EBD812FBD17AF13D15C6B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5408911B-FA59-4CED-81BA-FC0F3788FD44",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E" : "Swift\/OAuthGitHub\/OAuthSwift\/",
+    "05769E05B6292B1FC44EBD812FBD17AF13D15C6B" : "Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OAuthGitHub",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OAuthGitHub\/OAuthGitHub.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/overtrue\/swift-study",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "05769E05B6292B1FC44EBD812FBD17AF13D15C6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/OAuthSwift\/OAuthSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E"
+    }
+  ]
+}
