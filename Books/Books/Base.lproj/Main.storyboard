@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="B3j-lE-m3R">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Authors View Controller-->
+        <scene sceneID="nPc-gM-gOi">
+            <objects>
+                <tableViewController id="snq-6j-7Ag" customClass="AuthorsViewController" customModule="Books" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="MzC-bT-gbM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="snq-6j-7Ag" id="v82-6c-zx1"/>
+                            <outlet property="delegate" destination="snq-6j-7Ag" id="bTP-vX-8cT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="7Y8-ms-LyE"/>
+                    <connections>
+                        <segue destination="y5w-Ig-C8C" kind="show" identifier="BooksViewController" id="2sq-0g-JIK"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q4W-Cl-GoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="701" y="110"/>
+        </scene>
+        <!--Books View Controller-->
+        <scene sceneID="sJl-5c-dcE">
+            <objects>
+                <tableViewController id="y5w-Ig-C8C" customClass="BooksViewController" customModule="Books" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0pI-kY-CEA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="y5w-Ig-C8C" id="8BG-Ha-Pqf"/>
+                            <outlet property="delegate" destination="y5w-Ig-C8C" id="XU7-Df-mSF"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <segue destination="lB4-oZ-9s6" kind="showDetail" identifier="BookCoverViewController" id="11c-q6-JgM"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QYW-dw-6sH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1353" y="110"/>
+        </scene>
+        <!--Book Cover View Controller-->
+        <scene sceneID="Qhi-Hi-Bki">
+            <objects>
+                <viewController id="lB4-oZ-9s6" customClass="BookCoverViewController" customModule="Books" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KPq-zO-bHg"/>
+                        <viewControllerLayoutGuide type="bottom" id="DED-HI-qib"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LP9-VV-O7B">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ffq-DZ-KIc">
+                                <rect key="frame" x="20" y="28" width="560" height="552"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ftd-9M-INk" appends="YES" id="x11-c7-VCn"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ffq-DZ-KIc" firstAttribute="trailing" secondItem="LP9-VV-O7B" secondAttribute="trailingMargin" id="HXK-dB-eud"/>
+                            <constraint firstItem="ffq-DZ-KIc" firstAttribute="top" secondItem="KPq-zO-bHg" secondAttribute="bottom" constant="8" symbolic="YES" id="NxH-GX-ezY"/>
+                            <constraint firstAttribute="bottom" secondItem="ffq-DZ-KIc" secondAttribute="bottom" constant="20" symbolic="YES" id="eAc-O7-8tY"/>
+                            <constraint firstItem="ffq-DZ-KIc" firstAttribute="leading" secondItem="LP9-VV-O7B" secondAttribute="leadingMargin" id="vky-XS-LZa"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ftd-9M-INk" appends="YES" id="DkE-9u-B6k"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="bookCoverView" destination="ffq-DZ-KIc" id="7Yc-0I-Nq5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ifb-V7-ZMU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ftd-9M-INk">
+                    <connections>
+                        <action selector="backToList" destination="lB4-oZ-9s6" id="L6o-BR-Bsl"/>
+                        <outlet property="delegate" destination="lB4-oZ-9s6" id="ebS-5D-jGu"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2041" y="110"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5b9-Mv-GdO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B3j-lE-m3R" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fWY-VR-HVI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="snq-6j-7Ag" kind="relationship" relationship="rootViewController" id="db9-Gj-Hdt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzi-Fz-w2J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111" y="110"/>
+        </scene>
+    </scenes>
+</document>
