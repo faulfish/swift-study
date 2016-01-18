@@ -23,6 +23,13 @@ class ShoppingListViewController: UITableViewController {
         }
     }
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateShoppingList:", name: "ShoppingListDidChangeNotification", object: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,8 +40,6 @@ class ShoppingListViewController: UITableViewController {
         loadItems()
         
         tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: CellIdentifier)
-        
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateShoppingList:", name: "ShoppingListDidChangeNotification", object: nil)
     }
     
     
@@ -54,6 +59,7 @@ class ShoppingListViewController: UITableViewController {
     private func loadItems() {
         if let filePath = pathForItems() where NSFileManager.defaultManager().fileExistsAtPath(filePath) {
             if let archivedItems = NSKeyedUnarchiver.unarchiveObjectWithFile(filePath) as? [Item] {
+                print(archivedItems)
                 items = archivedItems
             }
         }
@@ -63,7 +69,7 @@ class ShoppingListViewController: UITableViewController {
         let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
         
         if let documents = paths.first, let documentsURL = NSURL(string: documents) {
-            return documentsURL.URLByAppendingPathComponent("items").path
+            return documentsURL.URLByAppendingPathComponent("items.plist").path
         }
         
         return nil
