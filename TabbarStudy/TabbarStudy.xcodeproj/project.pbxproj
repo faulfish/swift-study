@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E5C8261C4BAD5500EE5612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5C8251C4BAD5500EE5612 /* AppDelegate.swift */; };
+		02E5C82B1C4BAD5500EE5612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8291C4BAD5500EE5612 /* Main.storyboard */; };
+		02E5C82D1C4BAD5500EE5612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C82C1C4BAD5500EE5612 /* Assets.xcassets */; };
+		02E5C8301C4BAD5500EE5612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C82E1C4BAD5500EE5612 /* LaunchScreen.storyboard */; };
+		02E5C8571C4BAD8A00EE5612 /* AuthorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5C8371C4BAD8A00EE5612 /* AuthorsViewController.swift */; };
+		02E5C8581C4BAD8A00EE5612 /* BookCoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5C8381C4BAD8A00EE5612 /* BookCoverViewController.swift */; };
+		02E5C8591C4BAD8A00EE5612 /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8391C4BAD8A00EE5612 /* Books.plist */; };
+		02E5C85A1C4BAD8A00EE5612 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5C83A1C4BAD8A00EE5612 /* BooksViewController.swift */; };
+		02E5C85B1C4BAD8A00EE5612 /* angels-demons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C83C1C4BAD8A00EE5612 /* angels-demons.jpg */; };
+		02E5C85C1C4BAD8A00EE5612 /* azkaban.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C83D1C4BAD8A00EE5612 /* azkaban.jpg */; };
+		02E5C85D1C4BAD8A00EE5612 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C83E1C4BAD8A00EE5612 /* background.jpg */; };
+		02E5C85E1C4BAD8A00EE5612 /* bard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C83F1C4BAD8A00EE5612 /* bard.jpg */; };
+		02E5C85F1C4BAD8A00EE5612 /* bilbo-song.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8401C4BAD8A00EE5612 /* bilbo-song.png */; };
+		02E5C8601C4BAD8A00EE5612 /* blindsight.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8411C4BAD8A00EE5612 /* blindsight.png */; };
+		02E5C8611C4BAD8A00EE5612 /* brain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8421C4BAD8A00EE5612 /* brain.jpg */; };
+		02E5C8621C4BAD8A00EE5612 /* chamber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8431C4BAD8A00EE5612 /* chamber.jpg */; };
+		02E5C8631C4BAD8A00EE5612 /* da-vinci-code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8441C4BAD8A00EE5612 /* da-vinci-code.jpg */; };
+		02E5C8641C4BAD8A00EE5612 /* deception-point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8451C4BAD8A00EE5612 /* deception-point.jpg */; };
+		02E5C8651C4BAD8A00EE5612 /* digital-fortress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8461C4BAD8A00EE5612 /* digital-fortress.jpg */; };
+		02E5C8661C4BAD8A00EE5612 /* fatal-cure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8471C4BAD8A00EE5612 /* fatal-cure.jpeg */; };
+		02E5C8671C4BAD8A00EE5612 /* fellowship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8481C4BAD8A00EE5612 /* fellowship.jpg */; };
+		02E5C8681C4BAD8A00EE5612 /* fever.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8491C4BAD8A00EE5612 /* fever.jpg */; };
+		02E5C8691C4BAD8A00EE5612 /* goblet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C84A1C4BAD8A00EE5612 /* goblet.jpg */; };
+		02E5C86A1C4BAD8A00EE5612 /* hallows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C84B1C4BAD8A00EE5612 /* hallows.jpg */; };
+		02E5C86B1C4BAD8A00EE5612 /* intervention.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C84C1C4BAD8A00EE5612 /* intervention.jpg */; };
+		02E5C86C1C4BAD8A00EE5612 /* invasion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C84D1C4BAD8A00EE5612 /* invasion.jpg */; };
+		02E5C86D1C4BAD8A00EE5612 /* lost-symbol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C84E1C4BAD8A00EE5612 /* lost-symbol.jpg */; };
+		02E5C86E1C4BAD8A00EE5612 /* phoenix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C84F1C4BAD8A00EE5612 /* phoenix.jpg */; };
+		02E5C86F1C4BAD8A00EE5612 /* prince.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8501C4BAD8A00EE5612 /* prince.jpg */; };
+		02E5C8701C4BAD8A00EE5612 /* return-king.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8511C4BAD8A00EE5612 /* return-king.jpg */; };
+		02E5C8711C4BAD8A00EE5612 /* shock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8521C4BAD8A00EE5612 /* shock.jpg */; };
+		02E5C8721C4BAD8A00EE5612 /* sphinx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8531C4BAD8A00EE5612 /* sphinx.jpeg */; };
+		02E5C8731C4BAD8A00EE5612 /* stone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8541C4BAD8A00EE5612 /* stone.jpg */; };
+		02E5C8741C4BAD8A00EE5612 /* the-hobbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8551C4BAD8A00EE5612 /* the-hobbit.jpg */; };
+		02E5C8751C4BAD8A00EE5612 /* two-towers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02E5C8561C4BAD8A00EE5612 /* two-towers.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E5C8221C4BAD5500EE5612 /* TabbarStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E5C8251C4BAD5500EE5612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02E5C82A1C4BAD5500EE5612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02E5C82C1C4BAD5500EE5612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02E5C82F1C4BAD5500EE5612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02E5C8311C4BAD5500EE5612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E5C8371C4BAD8A00EE5612 /* AuthorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorsViewController.swift; sourceTree = "<group>"; };
+		02E5C8381C4BAD8A00EE5612 /* BookCoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCoverViewController.swift; sourceTree = "<group>"; };
+		02E5C8391C4BAD8A00EE5612 /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
+		02E5C83A1C4BAD8A00EE5612 /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		02E5C83C1C4BAD8A00EE5612 /* angels-demons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angels-demons.jpg"; sourceTree = "<group>"; };
+		02E5C83D1C4BAD8A00EE5612 /* azkaban.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = azkaban.jpg; sourceTree = "<group>"; };
+		02E5C83E1C4BAD8A00EE5612 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		02E5C83F1C4BAD8A00EE5612 /* bard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bard.jpg; sourceTree = "<group>"; };
+		02E5C8401C4BAD8A00EE5612 /* bilbo-song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilbo-song.png"; sourceTree = "<group>"; };
+		02E5C8411C4BAD8A00EE5612 /* blindsight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blindsight.png; sourceTree = "<group>"; };
+		02E5C8421C4BAD8A00EE5612 /* brain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brain.jpg; sourceTree = "<group>"; };
+		02E5C8431C4BAD8A00EE5612 /* chamber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chamber.jpg; sourceTree = "<group>"; };
+		02E5C8441C4BAD8A00EE5612 /* da-vinci-code.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "da-vinci-code.jpg"; sourceTree = "<group>"; };
+		02E5C8451C4BAD8A00EE5612 /* deception-point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deception-point.jpg"; sourceTree = "<group>"; };
+		02E5C8461C4BAD8A00EE5612 /* digital-fortress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "digital-fortress.jpg"; sourceTree = "<group>"; };
+		02E5C8471C4BAD8A00EE5612 /* fatal-cure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fatal-cure.jpeg"; sourceTree = "<group>"; };
+		02E5C8481C4BAD8A00EE5612 /* fellowship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fellowship.jpg; sourceTree = "<group>"; };
+		02E5C8491C4BAD8A00EE5612 /* fever.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fever.jpg; sourceTree = "<group>"; };
+		02E5C84A1C4BAD8A00EE5612 /* goblet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goblet.jpg; sourceTree = "<group>"; };
+		02E5C84B1C4BAD8A00EE5612 /* hallows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hallows.jpg; sourceTree = "<group>"; };
+		02E5C84C1C4BAD8A00EE5612 /* intervention.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intervention.jpg; sourceTree = "<group>"; };
+		02E5C84D1C4BAD8A00EE5612 /* invasion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invasion.jpg; sourceTree = "<group>"; };
+		02E5C84E1C4BAD8A00EE5612 /* lost-symbol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lost-symbol.jpg"; sourceTree = "<group>"; };
+		02E5C84F1C4BAD8A00EE5612 /* phoenix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phoenix.jpg; sourceTree = "<group>"; };
+		02E5C8501C4BAD8A00EE5612 /* prince.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prince.jpg; sourceTree = "<group>"; };
+		02E5C8511C4BAD8A00EE5612 /* return-king.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "return-king.jpg"; sourceTree = "<group>"; };
+		02E5C8521C4BAD8A00EE5612 /* shock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shock.jpg; sourceTree = "<group>"; };
+		02E5C8531C4BAD8A00EE5612 /* sphinx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sphinx.jpeg; sourceTree = "<group>"; };
+		02E5C8541C4BAD8A00EE5612 /* stone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stone.jpg; sourceTree = "<group>"; };
+		02E5C8551C4BAD8A00EE5612 /* the-hobbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-hobbit.jpg"; sourceTree = "<group>"; };
+		02E5C8561C4BAD8A00EE5612 /* two-towers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "two-towers.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E5C81F1C4BAD5500EE5612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E5C8191C4BAD5500EE5612 = {
+			isa = PBXGroup;
+			children = (
+				02E5C8241C4BAD5500EE5612 /* TabbarStudy */,
+				02E5C8231C4BAD5500EE5612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E5C8231C4BAD5500EE5612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E5C8221C4BAD5500EE5612 /* TabbarStudy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E5C8241C4BAD5500EE5612 /* TabbarStudy */ = {
+			isa = PBXGroup;
+			children = (
+				02E5C8371C4BAD8A00EE5612 /* AuthorsViewController.swift */,
+				02E5C8381C4BAD8A00EE5612 /* BookCoverViewController.swift */,
+				02E5C8391C4BAD8A00EE5612 /* Books.plist */,
+				02E5C83A1C4BAD8A00EE5612 /* BooksViewController.swift */,
+				02E5C83B1C4BAD8A00EE5612 /* Images */,
+				02E5C8251C4BAD5500EE5612 /* AppDelegate.swift */,
+				02E5C8291C4BAD5500EE5612 /* Main.storyboard */,
+				02E5C82C1C4BAD5500EE5612 /* Assets.xcassets */,
+				02E5C82E1C4BAD5500EE5612 /* LaunchScreen.storyboard */,
+				02E5C8311C4BAD5500EE5612 /* Info.plist */,
+			);
+			path = TabbarStudy;
+			sourceTree = "<group>";
+		};
+		02E5C83B1C4BAD8A00EE5612 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				02E5C83C1C4BAD8A00EE5612 /* angels-demons.jpg */,
+				02E5C83D1C4BAD8A00EE5612 /* azkaban.jpg */,
+				02E5C83E1C4BAD8A00EE5612 /* background.jpg */,
+				02E5C83F1C4BAD8A00EE5612 /* bard.jpg */,
+				02E5C8401C4BAD8A00EE5612 /* bilbo-song.png */,
+				02E5C8411C4BAD8A00EE5612 /* blindsight.png */,
+				02E5C8421C4BAD8A00EE5612 /* brain.jpg */,
+				02E5C8431C4BAD8A00EE5612 /* chamber.jpg */,
+				02E5C8441C4BAD8A00EE5612 /* da-vinci-code.jpg */,
+				02E5C8451C4BAD8A00EE5612 /* deception-point.jpg */,
+				02E5C8461C4BAD8A00EE5612 /* digital-fortress.jpg */,
+				02E5C8471C4BAD8A00EE5612 /* fatal-cure.jpeg */,
+				02E5C8481C4BAD8A00EE5612 /* fellowship.jpg */,
+				02E5C8491C4BAD8A00EE5612 /* fever.jpg */,
+				02E5C84A1C4BAD8A00EE5612 /* goblet.jpg */,
+				02E5C84B1C4BAD8A00EE5612 /* hallows.jpg */,
+				02E5C84C1C4BAD8A00EE5612 /* intervention.jpg */,
+				02E5C84D1C4BAD8A00EE5612 /* invasion.jpg */,
+				02E5C84E1C4BAD8A00EE5612 /* lost-symbol.jpg */,
+				02E5C84F1C4BAD8A00EE5612 /* phoenix.jpg */,
+				02E5C8501C4BAD8A00EE5612 /* prince.jpg */,
+				02E5C8511C4BAD8A00EE5612 /* return-king.jpg */,
+				02E5C8521C4BAD8A00EE5612 /* shock.jpg */,
+				02E5C8531C4BAD8A00EE5612 /* sphinx.jpeg */,
+				02E5C8541C4BAD8A00EE5612 /* stone.jpg */,
+				02E5C8551C4BAD8A00EE5612 /* the-hobbit.jpg */,
+				02E5C8561C4BAD8A00EE5612 /* two-towers.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E5C8211C4BAD5500EE5612 /* TabbarStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E5C8341C4BAD5500EE5612 /* Build configuration list for PBXNativeTarget "TabbarStudy" */;
+			buildPhases = (
+				02E5C81E1C4BAD5500EE5612 /* Sources */,
+				02E5C81F1C4BAD5500EE5612 /* Frameworks */,
+				02E5C8201C4BAD5500EE5612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbarStudy;
+			productName = TabbarStudy;
+			productReference = 02E5C8221C4BAD5500EE5612 /* TabbarStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E5C81A1C4BAD5500EE5612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = overtrue;
+				TargetAttributes = {
+					02E5C8211C4BAD5500EE5612 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CXFP2226F4;
+					};
+				};
+			};
+			buildConfigurationList = 02E5C81D1C4BAD5500EE5612 /* Build configuration list for PBXProject "TabbarStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02E5C8191C4BAD5500EE5612;
+			productRefGroup = 02E5C8231C4BAD5500EE5612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E5C8211C4BAD5500EE5612 /* TabbarStudy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E5C8201C4BAD5500EE5612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E5C86A1C4BAD8A00EE5612 /* hallows.jpg in Resources */,
+				02E5C8621C4BAD8A00EE5612 /* chamber.jpg in Resources */,
+				02E5C8751C4BAD8A00EE5612 /* two-towers.jpg in Resources */,
+				02E5C8701C4BAD8A00EE5612 /* return-king.jpg in Resources */,
+				02E5C85E1C4BAD8A00EE5612 /* bard.jpg in Resources */,
+				02E5C8301C4BAD5500EE5612 /* LaunchScreen.storyboard in Resources */,
+				02E5C8721C4BAD8A00EE5612 /* sphinx.jpeg in Resources */,
+				02E5C8731C4BAD8A00EE5612 /* stone.jpg in Resources */,
+				02E5C86C1C4BAD8A00EE5612 /* invasion.jpg in Resources */,
+				02E5C86E1C4BAD8A00EE5612 /* phoenix.jpg in Resources */,
+				02E5C8691C4BAD8A00EE5612 /* goblet.jpg in Resources */,
+				02E5C82D1C4BAD5500EE5612 /* Assets.xcassets in Resources */,
+				02E5C86D1C4BAD8A00EE5612 /* lost-symbol.jpg in Resources */,
+				02E5C8641C4BAD8A00EE5612 /* deception-point.jpg in Resources */,
+				02E5C85D1C4BAD8A00EE5612 /* background.jpg in Resources */,
+				02E5C85F1C4BAD8A00EE5612 /* bilbo-song.png in Resources */,
+				02E5C86F1C4BAD8A00EE5612 /* prince.jpg in Resources */,
+				02E5C8661C4BAD8A00EE5612 /* fatal-cure.jpeg in Resources */,
+				02E5C85C1C4BAD8A00EE5612 /* azkaban.jpg in Resources */,
+				02E5C85B1C4BAD8A00EE5612 /* angels-demons.jpg in Resources */,
+				02E5C8741C4BAD8A00EE5612 /* the-hobbit.jpg in Resources */,
+				02E5C82B1C4BAD5500EE5612 /* Main.storyboard in Resources */,
+				02E5C8671C4BAD8A00EE5612 /* fellowship.jpg in Resources */,
+				02E5C8711C4BAD8A00EE5612 /* shock.jpg in Resources */,
+				02E5C8681C4BAD8A00EE5612 /* fever.jpg in Resources */,
+				02E5C8591C4BAD8A00EE5612 /* Books.plist in Resources */,
+				02E5C8631C4BAD8A00EE5612 /* da-vinci-code.jpg in Resources */,
+				02E5C8651C4BAD8A00EE5612 /* digital-fortress.jpg in Resources */,
+				02E5C8611C4BAD8A00EE5612 /* brain.jpg in Resources */,
+				02E5C86B1C4BAD8A00EE5612 /* intervention.jpg in Resources */,
+				02E5C8601C4BAD8A00EE5612 /* blindsight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E5C81E1C4BAD5500EE5612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E5C8261C4BAD5500EE5612 /* AppDelegate.swift in Sources */,
+				02E5C85A1C4BAD8A00EE5612 /* BooksViewController.swift in Sources */,
+				02E5C8581C4BAD8A00EE5612 /* BookCoverViewController.swift in Sources */,
+				02E5C8571C4BAD8A00EE5612 /* AuthorsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02E5C8291C4BAD5500EE5612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E5C82A1C4BAD5500EE5612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02E5C82E1C4BAD5500EE5612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E5C82F1C4BAD5500EE5612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02E5C8321C4BAD5500EE5612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02E5C8331C4BAD5500EE5612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02E5C8351C4BAD5500EE5612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabbarStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.TabbarStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02E5C8361C4BAD5500EE5612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabbarStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overtrue.TabbarStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E5C81D1C4BAD5500EE5612 /* Build configuration list for PBXProject "TabbarStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E5C8321C4BAD5500EE5612 /* Debug */,
+				02E5C8331C4BAD5500EE5612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E5C8341C4BAD5500EE5612 /* Build configuration list for PBXNativeTarget "TabbarStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E5C8351C4BAD5500EE5612 /* Debug */,
+				02E5C8361C4BAD5500EE5612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E5C81A1C4BAD5500EE5612 /* Project object */;
+}
